@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mus.cn.lztmusketeer.MainActivity">
+
+    <mus.cn.suspendbutton.DragFloatActionButton
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:src="@mipmap/ic_launcher"
+        app:backgroundTint="#253aac"
+        app:rippleColor="#33728dff"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:clickable="true"
+        android:focusable="true"
+    />
+
+</LinearLayout>
